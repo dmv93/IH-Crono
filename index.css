@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Digi';
+    src: url('fonts/ds-digib.ttf');
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        font-family: Arial;
+        font-size: 80px;
+        font-weight: bold;
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        background-image: url(https://mobimg.b-cdn.net/v3/fetch/1c/1c4d5ebcdc55bd2754e1cbf74014e567.jpeg);
+    }
+
+    .leftColumn {}
+
+    .split-container {}
+
+    #splits {
+        font-size: xx-large;
+    }
+
+    .rightColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leash {
+        width: 130px;
+        background-color: #FF6600;
+    }
+
+    .leash-top {
+        height: 110px;
+    }
+
+    #clock {
+        border: 10px solid silver;
+        height: 240px;
+        width: 230px;
+        border-radius: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+    .sphere {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        border: 1px solid silver;
+        height: 225px;
+        width: 215px;
+        border-radius: 25%;
+        color: white;
+        background-color: #333333;
+    }
+
+    .mili-time {
+        height: 50px;
+    }
+
+    .time {
+        font-size: xx-large;
+    }
+
+    .buttons {
+        margin-top: 30px;
+    }
+
+    .btn {
+        border-radius: 100%;
+        height: 50px;
+        gap: 1em;
+        cursor: pointer;
+    }
+
+    .btn.start {
+        background-color: #5fca5f;
+    }
+
+    .btn.stop {
+        background: #f14949;
+    }
+
+    .btn.reset {
+        background: #908e8e;
+    }
+
+    .btn.clear {
+        background: #0851ab;
+    }
+
+    .leash-bottom {
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hole {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: azure;
+        border: 1px solid black;
+        margin: 19px 0px 19px 0px;
+    }
+}
